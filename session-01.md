@@ -1,5 +1,4 @@
-SESSION 01
-===
+# SESSION 01
 
 ## AGENDA
 
@@ -7,3 +6,4 @@ SESSION 01
 - Datentype in JavaScript
 - Explore the DOM
 - Formularvalidierung
+

@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+content-type: application/json
+Date: Tue, 03 Mar 2026 18:09:02 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+[{"question":"Ist JavaScript dynamisch oder statisch?","answer":"ja"},{"question":"Ist Float bei JavaScript als Datentyp verwendet?","answer":"nein"},{"question":"Vergleich die zwei \"1020\" == 1020","choices":["undefined",true,false],"answer":true}]

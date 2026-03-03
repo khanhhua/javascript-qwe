@@ -1,0 +1,11 @@
+questions:
+  - question: Ist JavaScript dynamisch oder statisch? 
+    answer: ja
+  - question: Ist Float bei JavaScript als Datentyp verwendet?
+    answer: nein
+  - question: Vergleich die zwei "1020" == 1020
+    choices:
+      - undefined
+      - true
+      - false
+    answer: true
