@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        Schüler Zeugnise der ... Schule
+        <form onsubmit="validateMe(event)">
+            <div>
+                <label>Zeugnis von ...</label>
+                <input id="idSchuelerName" type="text" />
+            </div>
+
+            <div>
+                <label>Noten durschnitt:...</label>
+                <input id="idnotendurchschnitt" type="number" />
+            </div>
+
+            <div>
+                <label>Name des Gymnasiuäms:</label>
+                <input id="idGymnasiumName" type="text" />
+            </div>
+
+            <div>
+                <input type="submit" value="Submit"id=idsubmit>
+            </div>
+        </form>
+    </body>
+
+    <script>
+        function validateMe(e) {
+            debugger
+            let schuelerName = idSchuelerName.value;
+            let durchschnitt = idnotendurchschnitt.value;
+            let gymnasium = idGymnasiumName.value;
+
+            if (schuelerName.length === 0) {
+                alert("Schuer Name ist leer");
+            }
+        }
+    </script>
+</html>

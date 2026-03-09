@@ -2,6 +2,15 @@
 
 ## AGENDA
 
+- Formularvalidierung
+  - Bearbeitung von String
+  - Eventbehandlung
+
+- Funktionen:
+  - Scope (Gultigkeitsbereiche)
+  - Parameter vs Argument
+  - Reference vs Value (Referenzübergabe vs Wertübergabe)
+
 - Formular abgeben
   - MIME-Typen
   - Synchron vs Asynchron
